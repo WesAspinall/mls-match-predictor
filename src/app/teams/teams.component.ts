@@ -15,6 +15,12 @@ export class TeamsComponent {
     this.getTeamImages()
   }
 
+  menuHidden: boolean = false;
+
+  hideMenu(): void {
+    this.menuHidden = true;
+  }
+
   getTeamImages(): void {
     this.mlsService.getTeamImages().subscribe((data: any[]) => {
       this.teams = data;

@@ -1,2 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+
+/* styles.scss */
+:root {
+    --font-sans: InterVariable, sans-serif;
+  }
+ 
+  body {
+    font-family: 'InterVariable', sans-serif;
+  }
+  
