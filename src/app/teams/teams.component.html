@@ -1,0 +1,11 @@
+<div class="overflow-hidden bg-white shadow-sm sm:rounded-md">
+  <ul role="list" class="divide-y divide-gray-200">
+    <li *ngFor="let team of teams" class="px-4 py-4 sm:px-6">
+      <!-- Your content -->
+    <img src="{{team.imgUrl}}" width="20" class="inline">
+      <span class="px-2">{{team.name}}</span>
+    </li>
+  </ul>
+</div>
+
+
